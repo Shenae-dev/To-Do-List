@@ -51,3 +51,13 @@ function randomColors() {
 
     return color;
 }
+
+function date() {
+    const event = new Date();
+
+    return event.toString().slice(0, 15);
+    
+    
+}
+
+document.querySelector('.header').innerHTML = date();

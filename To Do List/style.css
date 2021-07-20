@@ -79,7 +79,8 @@ body{
    justify-content: center;
    cursor: pointer;
    padding: 1rem;
-
+   margin-left: 1rem;
+   margin-top: 1rem;
 }
 .task{
     background-color: #ffffff;
@@ -109,4 +110,13 @@ body{
 }
 .completed{
     text-decoration: line-through;
+}
+
+.header{
+    display: flex;
+    font-size: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
 }
